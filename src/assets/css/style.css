@@ -1,0 +1,54 @@
+body{font-family: 'Poppins', sans-serif; font-size: 14px; color: #898f96; background: #F8F8F8; letter-spacing: 0.09rem;}
+#main {
+  padding: 0px 0 0 10px;
+  margin-left: 240px;
+  transition: margin-left 0.5s;
+}
+h1,h2,h3,h4{color: #fe860c;}
+h2{font-size: 20px; font-weight: 600; color: #fff5a0;}
+h3{font-size: 11px; color: #1A1915; text-transform: none; font-weight: 600; letter-spacing: 1px;}
+h5{color: #040402; font-size: 17px; text-transform: uppercase; letter-spacing: 2px; font-weight: 600; padding-bottom: 10px;}
+h4{font-size: 1.2rem; color: #ffd15c;}
+p{color: #696e74;}
+.btn{ font-size: 14px; text-transform: uppercase; padding: 10px;border-color: #969696;}
+.btn-warning{background: #fea00c; border-color: #fea00c;}
+.btn-warning:hover{background: #ffc107; border-color: #ffc107;}
+.btn-secondary{background: #1d2023; border-color: #969696;}
+.btn-secondary:hover{background: #151618; border-color: #151618;}
+.btn-dark{ color: #929393; width: 80px; padding: 8px; border-radius: 5px; display: block; background-color: #020201; }
+.btn-dark:hover{background: #000000; border-color: #847958; color: #f8c32c;}
+
+content{background: #f9f9fa;}
+.form-group{margin-bottom: 20px;}
+label{color: #919090; font-size: 12px; text-transform: uppercase; font-weight: 500; margin-bottom: 0.1rem;}
+.form-control{border-radius: 5px; background: #ffffff; border:1px solid #e2e2e2; padding:10px; text-align: left; font-weight: 400; font-size: 13px; color: #000000; }
+.form-control::placeholder {text-transform: none; color: #cecece;}
+.form-control:-ms-input-placeholder {text-transform: none; color: #000000;}
+.form-control::-ms-input-placeholder {text-transform: none; color: #000000;}
+textarea.form-control{height: 40px;}
+.tablearea{border: 1px solid #dddddd; display: block;}
+.content{background: #2a2e32;  padding: 25px 25px; position: relative; margin-bottom: 20px; }
+.text-light{color: #919090;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

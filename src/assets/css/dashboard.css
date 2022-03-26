@@ -1,0 +1,108 @@
+.overview{background: #F8F8F8;  padding-top: 25px;padding-bottom: 10px; position: relative; margin-bottom: 20px; }
+.overview .card {border-radius: 10px;
+  background: linear-gradient(to right, #000000 0%, #312C1E 100%);
+  padding: 10px;
+  height: 160px;
+-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.24);}
+.overview .card-header.yellow1{background: #3d434b}
+.overview .card-header.yellow2{background: #f39c12;}
+.overview .card-header.yellow3{background: #e67e22;}
+.overview .card-header.yellow4{background: #d35400;}
+.overview .card-header{padding: 10px; padding-bottom: 0; border-bottom: none; border-radius: 1px; color: #ffffff; font-size: 1rem; font-weight: 400; text-transform: uppercase; letter-spacing: 2px; line-height: 18px;}
+.overview .card-body{color: #ffffff; font-size: 26px;}
+
+
+.status .card{border-radius: 10px;background: #ffffff; 
+-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.144);
+-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.144);
+box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.144);}
+.status .card-header{padding:1.5rem; color: #040402; border-bottom: none; border-radius: 10px; font-size: 1rem; font-weight: 600; text-transform:none; letter-spacing: 2px; line-height: 18px; text-align:left; background: #ffffff;}
+.status .card-body{border-top: none; background: #ffffff; padding: 10px; text-align: center;}
+.status .statuscircle1 {width: 40px; height: 40px; margin: 0 auto; margin-top: 2rem; border-radius: 50%; color: #ffffff; text-align: center; font-size: 15px; background: #FF5E5E; line-height: 40px;}
+.status .statuscircle2 {width: 40px; height: 40px; margin: 0 auto; margin-top: 2rem; border-radius: 50%; color: #ffffff; text-align: center; font-size: 15px; background: #EBEBEB; line-height: 40px;}
+.status .statuscircle3 {width: 40px; height: 40px; margin: 0 auto; margin-top: 1.2rem; border-radius: 50%; color: #ffffff; text-align: center; font-size: 15px; background: #CBC1A6; line-height: 40px;}
+.status .statuscircle4 {width: 40px; height: 40px; margin: 0 auto; margin-top: 2rem; border-radius: 50%; color: #ffffff; text-align: center; font-size: 15px; background: #3A82F8; line-height: 40px;}
+.status .statuscircle5 {width: 40px; height: 40px; margin: 0 auto; margin-top: 2rem; border-radius: 50%; color: #ffffff; text-align: center; font-size: 15px; background: #FFCF0E; line-height: 40px;}
+.status .statuscircle6 {width: 40px; height: 40px; margin: 0 auto; margin-top: 2rem; border-radius: 50%; color: #ffffff; text-align: center; font-size: 15px; background: #19C89C; line-height: 40px;}
+
+.status .card-footer {background-color: white; border-radius: 10px; border-top: none;}
+
+.stats .card{border: none; border-radius: 1px; color: #ffffff; 
+-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+}
+.stats .card.revanue{background: #f1c40f;}
+.stats .card.feedback{background: #f39c12;}
+.statcircle{width: 86px; height: 86px; border-radius: 50%; background: #ffffff; text-align: center; margin: 0 auto;}
+.stats .card .card-header{padding: 2.5rem 1rem 0rem; border-bottom: none; border-radius: 1px; font-size: 1rem; font-weight: 400; text-transform: uppercase; letter-spacing: 2px; line-height: 18px; text-align: center; background: none;}
+.stats .card .card-footer{border-top: none; padding: 0.2rem 2rem 2.5rem; background: none;}
+.stats .card .card-body h6{text-align: center; font-size: 16px; color: #ffffff;}
+.stats .card .card-body h6 small{font-size: 12px;}
+
+.stats .graph{border: none; border-radius: 10px; background: #ffffff; padding:1rem; 
+-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.144);
+-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.144);
+box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.144);
+}
+.stats .graph .card-header{padding:1rem; color: #040402; border-bottom: none; border-radius: 10px; font-size: 1rem; font-weight: 600; text-transform:none; letter-spacing: 2px; line-height: 18px; text-align:left; background: #ffffff;}
+.stats .graph .card-body{border-top: none; background: #ffffff; padding: 10px; text-align: center;}
+
+.boxer {
+  display: table;
+  border-collapse: collapse;
+  border: 1px solid rgb(221, 221, 221);
+  font-size: 11px;
+
+
+}
+.boxer .box-row {
+  display: table-row;
+  background-color: #ffffff;
+
+}
+.boxer .box-row:first-child {
+  font-weight:bold;
+  color: #1A1915;
+}
+
+.boxer .box-row1 {
+  display: table-row;
+  background-color: #ebebeb;
+
+}
+.boxer .box {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.boxer .box1 {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px;
+  font-weight: 600;
+  color: #000000;
+}
+.boxer .ebay {
+  padding:5px;
+}
+.boxer .google {
+  padding:5px;
+}
+.boxer .amazon {
+  padding:5px;
+}
+.center {
+  text-align:center;
+}
+.right {
+  float:right;
+}
+
+@media only screen and (max-width: 992px) {
+  .overview{height: inherit; margin-bottom: 20px;}
+}
+

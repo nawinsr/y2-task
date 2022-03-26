@@ -1,0 +1,61 @@
+.container {
+  position: fixed;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #2f4050;
+  padding: 0;
+}
+.logoDiv {
+  height: 56px;
+  background-color: #1a2e3a;
+}
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: white;
+  line-height: 50px;
+}
+.menus{
+  margin-top: 5px;
+}
+.menu{
+  height: 50px;
+}
+.menu:hover{
+  background-color:#1a2e3a ;
+  cursor: pointer;
+  border-left: solid grey 3px;
+}
+.textmenu{
+  line-height: 50px;
+  margin-left: 10px;
+  color: white;
+}
+.pi{
+  line-height: 50px;
+}
+.icon{
+  margin-left: 10px;
+}
+.fas{
+  color: gray;
+}
+/* @media only screen and (max-width: 1000px) {
+.textmenu{
+  display: none;
+}
+.container{
+  width: 50px;
+}
+.logo{
+  font-size: 15px;
+}
+.menu{
+  text-align: center;
+}
+.icon{
+  margin-left: 0;
+}
+} */

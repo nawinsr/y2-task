@@ -1,0 +1,318 @@
+.overview{background: #F8F8F8;  padding-top: 25px;padding-bottom: 10px; position: relative; margin-bottom: 20px; }
+.overview .card {border-radius: 10px;
+  background: linear-gradient(to right, #000000 0%, #312C1E 100%);
+  padding: 10px;
+  height: 140px;
+-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+transition:all 0.2s ease;
+}
+
+.overview .card:hover
+        {
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            transform: scale(0.8);
+        }
+
+
+.control{
+	position: absolute;
+	bottom: 20%;
+
+
+
+	
+}
+.control .btn {
+
+	transform: translateY(0px);
+	transition: 0.3s linear;
+	background:  #f0c400;
+	border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	color: #eee;
+	padding: 0;
+	margin: 0;
+
+
+	
+}
+
+.control .btn:hover{transform: translateY(-6px);
+	background: #000000;}
+
+.control .btn span {
+
+	transition: transform 0.3s;
+	display: inline-block;
+  padding: 10px 20px;
+	font-size: 1.2em;
+	margin:0;
+
+	
+}
+.control .btn .count, .vehicle{
+	background: #333;
+	border: 0;
+	margin: 0;
+
+
+}
+
+.control .btn .count {
+	transform: translateX(-10%); padding-right: 10px;
+  width:60px;
+
+
+}
+
+.control .btn .vehicle {
+	transform: translateX(-110%);
+  position: absolute;
+	background: #333;
+	z-index: 1;
+  left: 0;
+  top: 0;
+  width: 50px;
+}
+
+.control .btn .vehiclename {z-index: 3; font-weight: bolder;}
+
+.control .btn:hover .count {transform: translateX(-110%);}
+
+.control .btn:hover .vehicle{transform: translateX(-10%);}
+
+
+
+
+.overview .card-header.yellow1{background: #3d434b}
+.overview .card-header.yellow2{background: #f39c12;}
+.overview .card-header.yellow3{background: #e67e22;}
+.overview .card-header.yellow4{background: #d35400;}
+.overview .card-header{padding: 5px; padding-bottom: 0; border-bottom: none; border-radius: 1px; color: #ffffff; font-size: 1rem; font-weight: 400; text-transform: uppercase; letter-spacing: 2px; line-height: 18px;}
+.overview .card-body{color: #ffffff; font-size: 26px;}
+
+
+.status .card{border-radius: 10px;background: #ffffff; 
+-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.144);
+-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.144);
+box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.144);}
+.status .card-header{padding:1.5rem; color: #040402; border-bottom: none; border-radius: 10px; font-size: 1rem; font-weight: 600; text-transform:none; letter-spacing: 2px; line-height: 18px; text-align:left; background: #ffffff;}
+.status .card-body{border-top: none; background: #ffffff; padding: 10px; text-align: center;}
+
+.status .statuscircle1 {
+  width: 40px; 
+  height: 40px; 
+  margin: 0 auto; 
+  margin-top: 2rem; 
+  border-radius: 50%; 
+  color: #ffffff; 
+  text-align: center; 
+  font-size: 15px; 
+  background: #FF5E5E; 
+  line-height: 40px;
+  display: block;
+  transition:all 0.2s ease;
+
+}
+.status .statuscircle1:hover {
+  background: #ff0000;
+  -webkit-transform: scale(1.8);
+  -ms-transform: scale(1.8);
+  transform: scale(1.8);
+
+
+}
+
+
+
+
+
+.status .statuscircle2 {width: 40px; height: 40px; margin: 0 auto; margin-top: 2rem; border-radius: 50%; color: #ffffff; text-align: center; font-size: 15px; background: #EBEBEB; line-height: 40px; }
+.status .statuscircle3 {width: 40px; height: 40px; margin: 0 auto; margin-top: 1.2rem; border-radius: 50%; color: #ffffff; text-align: center; font-size: 15px; background: #CBC1A6; line-height: 40px;}
+.status .statuscircle4 {width: 40px; height: 40px; margin: 0 auto; margin-top: 2rem; border-radius: 50%; color: #ffffff; text-align: center; font-size: 15px; background: #3A82F8; line-height: 40px;   transition:all 0.2s ease;}
+
+.status .statuscircle4:hover {
+  background: #1100fa;
+  -webkit-transform: scale(1.8);
+  -ms-transform: scale(1.8);
+  transform: scale(1.8);
+}
+
+.status .statuscircle5 {width: 40px; height: 40px; margin: 0 auto; margin-top: 2rem; border-radius: 50%; color: #ffffff; text-align: center; font-size: 15px; background: #FFCF0E; line-height: 40px;   transition:all 0.2s ease;}
+
+.status .statuscircle5:hover {
+  background: #ffa600;
+  -webkit-transform: scale(1.8);
+  -ms-transform: scale(1.8);
+  transform: scale(1.8);
+}
+.status .statuscircle6 {width: 40px; height: 40px; margin: 0 auto; margin-top: 2rem; border-radius: 50%; color: #ffffff; text-align: center; font-size: 15px; background: #19C89C; line-height: 40px;   transition:all 0.2s ease;}
+
+.status .statuscircle6:hover {
+  background: #00ffb3;
+  -webkit-transform: scale(1.8);
+  -ms-transform: scale(1.8);
+  transform: scale(1.8);
+}
+
+.status .card-footer {background-color: white; border-radius: 10px; border-top: none;}
+
+.data .card{border: none; border-radius: 10px; background: #ffffff; padding:1rem;  
+-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+}
+
+
+.data .card .card-header{padding: 2.5rem 1rem 0rem; border-bottom: none; border-radius: 1px; font-size: 1rem; font-weight: 400; text-transform: uppercase; letter-spacing: 2px; line-height: 18px; text-align: center; background: none;}
+.data .card .card-footer{border-top: none; padding: 0.2rem 2rem 2.5rem; background: none;}
+.data .card .card-body h6{text-align: center; font-size: 16px; color: #ffffff;}
+.data .card .card-body h6 small{font-size: 12px;}
+
+.data .graph{border: none; border-radius: 10px; background: #ffffff; padding:1rem;  width: 100%; overflow-x: scroll;
+-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.144);
+-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.144);
+box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.144);
+}
+.data .graph .card-header{padding:1rem; color: #040402; border-bottom: none; border-radius: 10px; font-size: 1rem; font-weight: 600; text-transform:none; letter-spacing: 2px; line-height: 18px; text-align:left; background: #ffffff;}
+.data .graph .card-body{border-top: none; background: #ffffff; padding: 10px; text-align: center;}
+
+
+
+.table .card{border: none; border-radius: 1px; color: #000000; background-color: white; 
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+  -moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+  box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.24);
+  }
+.graph .btns {
+  width: 20%;
+  position: relative;
+  display: flex;
+
+
+}
+.graph .btnsleft {
+  left: 0;
+margin-right: 20px;
+  display: flex;
+
+}
+.graph .btnsright {
+   left: 0;
+  justify-content: left;
+}
+
+.boxer {
+  display: table;
+  border-collapse: collapse;
+  border: 1px solid rgb(221, 221, 221);
+  font-size: 11px;
+  border-radius: 15px;
+  text-align: left;
+  width:700px;
+  overflow: scroll;
+
+
+
+}
+
+.boxer .form-control {
+  background-color: none;
+  width: 100px;
+}
+
+.boxer .box-row {
+  display: table-row;
+  background-color: #ffffff;
+  font-weight: 500;
+
+
+}
+.boxer .box-row:first-child {
+  font-weight:bold;
+  color: #1A1915;
+}
+
+.boxer .box-row1 {
+  display: table-row;
+  background-color: #aca9a9;
+
+
+}
+.boxer .boxheader {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px;
+  width: 100px;
+
+  background-color: rgb(230, 230, 230);
+}
+.boxer .box {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 10px;
+  text-align: left;
+
+
+  color: black;
+
+}
+
+.boxer .box1 {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px;
+  font-weight: 600;
+  color: #000000;
+
+}
+
+
+.boxer .btn {
+  padding: 5px;
+  outline: none;
+  background-color: white;
+  border: 0;
+
+
+}
+
+.boxer .btn:hover {
+  padding: 5px;
+  outline: none;
+  background-color: rgb(25, 0, 255);
+  border: 0;
+
+
+}
+
+.boxer .btn .dropdown-item a {
+  padding: 5px;
+  outline: none;
+  color: white;
+  border: 0;
+
+
+}
+
+.boxer .btn  .dropdown-item a:hover {
+  padding: 5px;
+  outline: none;
+  background-color: rgb(199, 199, 199);
+  border: 0;
+
+
+}
+
+
+@media only screen and (max-width: 992px) {
+  .overview{height: inherit; margin-bottom: 20px;}
+}
+
